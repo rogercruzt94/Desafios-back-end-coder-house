@@ -1,0 +1,9 @@
+{
+    "nasc-touchbar.togglePanel": true,
+    "nasc-touchbar.showCommands": true,
+    "nasc-touchbar.showReferences": false,
+    "nasc-touchbar.toggleSidebar": true,
+    "nasc-touchbar.rename": true,
+    "nasc-touchbar.goToDefinition": true,
+    "nasc-touchbar.addCursorBelow": true
+}
