@@ -80,7 +80,7 @@ class Contenedor {
 }
 module.exports = Contenedor;
 
-/*
+
 let contenedor = new Contenedor(`/productos.txt`);
 async function test() {
     const newProduct = {
@@ -93,4 +93,4 @@ async function test() {
     console.table(await contenedor.getAll());
     await contenedor.deleteById(6);
 }
-test();*/
+test();

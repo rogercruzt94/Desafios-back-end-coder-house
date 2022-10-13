@@ -118,5 +118,11 @@
     "price": 11111,
     "thumbnail": "link",
     "id": 21
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 22
   }
 ]
