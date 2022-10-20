@@ -1,0 +1,27 @@
+{{> navbar}}
+<br/>
+
+<h1>Listado de productos</h1>
+{{#if productsExist}}
+    {{#each products}}
+        <div>
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>NOMBRE</th>
+                    <th>PRECIO</th>
+                    <th>IMAGEN</th>
+                </thead>
+           
+            <td> {{this.id}}</td>
+            <td> {{this.title}}</td>
+            <td> {{this.price}}</td>
+            <td><img src="{{this.thumbnail}}" class="product-img" style="width:60px ;height:60px"/></td>
+            </table>
+        </div>
+    {{/each}}
+{{/if}}
+
+<br/>
+{{> footer}}
+<br/>

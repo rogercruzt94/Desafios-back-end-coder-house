@@ -1,0 +1,32 @@
+[
+    {
+        "title": "PC",
+        "price": 75.66,
+        "thumbnail": "someUrl.com",
+        "id": 1
+    },
+    {
+        "title": "XBOX",
+        "price": 72.66,
+        "thumbnail": "someUrl.com",
+        "id": 2
+    },
+    {
+        "title": "PS5",
+        "price": 100,
+        "thumbnail": "someUrl.com",
+        "id": 3
+    },
+    {
+        "title": "dvd",
+        "price": 139.99,
+        "thumbnail": "someUrl.com",
+        "id": 4
+    },
+    {
+        "title": "tv",
+        "price": 139.99,
+        "thumbnail": "someUrl.com",
+        "id": 4
+    }
+]

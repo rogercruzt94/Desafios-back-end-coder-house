@@ -1,0 +1,16 @@
+html
+
+    head
+        title='test pug'
+        style
+            include styles.css
+    body
+        a(href="/form") Cargar producto 
+        h1="listado de productos"
+        div
+        for item in products
+            div
+                p=item.id
+                p=item.title
+                p=item.price
+                img(class='product-img', src=item.thumbnail)

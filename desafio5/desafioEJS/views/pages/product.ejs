@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body>
+    <%- include('../partials/navbar'); %>
+    <%=title %>
+    
+        
+
+        <table class="table">
+          <thead>
+              <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Photo</th>
+              </tr>
+          </thead>
+          <tbody>              
+                  <tr>
+                      <th scope="row">
+                          <%= product.id %>
+                      </th>
+                      <td>
+                          <%= product.title %>
+                      </td>
+                      <td>
+                          $<%= product.price %>
+                      </td>
+                      <td>
+                          <img src="<%= product.thumbnail %>" width="60" height="60" >
+                      </td>
+                  </tr>
+          
+          </tbody>
+      </table>
+    
+   
+  </body>
+</html>

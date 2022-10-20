@@ -1,0 +1,18 @@
+{{> navbar}}
+<br/>
+
+<h1>Formulario de Carga</h1>   
+        <div class="card">
+            <form action="/products" method="post">
+            <label for="title">Name</label>
+                <input type="text" name="title" id="title">
+            <label for="price">Prize</label>
+                <input type="text" name="price" id="price">
+            <label for="thumbnail">Thumbnail</label>
+                <input type="text" name="thumbnail" id="thumbnail">
+                <input type="submit" value="enviar">
+            </form>
+        </div>  
+<br/>
+{{> footer}}
+<br/>

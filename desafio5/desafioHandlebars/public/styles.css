@@ -1,0 +1,14 @@
+.footer {
+  color: blue;
+}
+
+.product-img {
+  width: 300px;
+  max-width: 300px;
+  height: 200px;
+  max-height: 200px;
+}
+
+h1 {
+  font-family: 'Lucida Console', 'Courier New', monospace;
+}
