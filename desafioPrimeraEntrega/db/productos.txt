@@ -1,0 +1,212 @@
+[
+  {
+    "title": "producto0",
+    "price": 0,
+    "thumbnail": "link0",
+    "id": 0
+  },
+  {
+    "title": "producto2",
+    "price": 2,
+    "thumbnail": "link2",
+    "id": 2
+  },
+  {
+    "title": "producto3",
+    "price": 3,
+    "thumbnail": "link3",
+    "id": 3
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 4
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 5
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 8
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 9
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 10
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 11
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 12
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 13
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 14
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 15
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 16
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 17
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 18
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 19
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 20
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 21
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 22
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 23
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 24
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 25
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 26
+  },
+  {
+    "title": "Producto",
+    "price": 11111,
+    "thumbnail": "link",
+    "id": 27
+  },
+  {
+    "timestamp": "Tue Aug 30 2022",
+    "nombre": "undefined",
+    "descripcion": "undefined",
+    "codigo": null,
+    "thumbnail": "undefined",
+    "precio": null,
+    "stock": null,
+    "id": 28
+  },
+  {
+    "timestamp": "Tue Aug 30 2022",
+    "nombre": "undefined",
+    "descripcion": "undefined",
+    "codigo": null,
+    "thumbnail": "undefined",
+    "precio": null,
+    "stock": null,
+    "id": 29
+  },
+  {
+    "timestamp": "Tue Aug 30 2022",
+    "nombre": "undefined",
+    "descripcion": "undefined",
+    "codigo": null,
+    "thumbnail": "undefined",
+    "precio": null,
+    "stock": null,
+    "id": 30
+  },
+  {
+    "timestamp": "Tue Aug 30 2022",
+    "nombre": "undefined",
+    "descripcion": "undefined",
+    "codigo": null,
+    "thumbnail": "undefined",
+    "precio": null,
+    "stock": null,
+    "id": 31
+  },
+  {
+    "timestamp": "Tue Aug 30 2022",
+    "nombre": "undefined",
+    "descripcion": "undefined",
+    "codigo": null,
+    "thumbnail": "undefined",
+    "precio": null,
+    "stock": null,
+    "id": 32
+  },
+  {
+    "timestamp": "Wed Sep 21 2022",
+    "nombre": "undefined",
+    "descripcion": "undefined",
+    "codigo": null,
+    "thumbnail": "http://localhost:8080/public/nike-ball.jpg",
+    "precio": null,
+    "stock": 50,
+    "id": 33
+  }
+]

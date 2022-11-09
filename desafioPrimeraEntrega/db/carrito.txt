@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+      "timestamp": "Tue Aug 30 2022",
+    "products": [
+      {
+          "timestamp": "Tue Aug 30 2022",
+        "nombre": "Producto3",
+        "descripcion": "descripcion3",
+        "codigo": 3,
+        "thumbnail": "url3",
+        "precio": 3,
+        "stock": 33,
+        "id": 3
+      },
+      {
+          "timestamp": "Tue Aug 30 2022",
+        "nombre": "Producto",
+        "descripcion": "descripcion2",
+        "codigo": 2,
+        "thumbnail": "url2",
+        "precio": 2,
+        "stock": 22,
+        "id": 2
+      },
+      {
+          "timestamp": "Tue Aug 30 2022",
+        "nombre": "Producto3",
+        "descripcion": "descripcion3",
+        "codigo": 3,
+        "thumbnail": "url3",
+        "precio": 3,
+        "stock": 33,
+        "id": 3
+      },
+      {
+        "title": "producto3",
+        "price": 3,
+        "thumbnail": "link3",
+        "id": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+      "timestamp": "Tue Aug 30 2022",
+    "products": [
+      {
+          "timestamp": "Tue Aug 30 2022",
+        "nombre": "Producto8",
+        "descripcion": "descripcion8",
+        "codigo": 8,
+        "thumbnail": "url8",
+        "precio": 8,
+        "stock": 8,
+        "id": 8
+      }
+    ]
+  },
+  {
+    "id": 5,
+      "timestamp": "Tue Aug 30 2022",
+    "products": []
+  },
+  {
+    "id": 6,
+      "timestamp": "Tue Aug 30 2022",
+    "products": [
+      {
+        "timestamp": "Tue Aug 30 2022",
+        "nombre": "Producto4",
+        "descripcion": "descripcion4",
+        "codigo": 4,
+        "thumbnail": "url4",
+        "precio": 4,
+        "stock": 4,
+        "id": 4
+      }
+    ]
+  },
+  {
+    "id": 8,
+      "timestamp": "Tue Aug 30 2022",
+    "products": [
+      {
+        "timestamp": "Tue Aug 30 2022",
+        "nombre": "Producto4",
+        "descripcion": "descripcion4",
+        "codigo": 4,
+        "thumbnail": "url4",
+        "precio": 4,
+        "stock": 4,
+        "id": 4
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "timestamp": "Tue Aug 30 2022",
+    "products": []
+  }
+]
