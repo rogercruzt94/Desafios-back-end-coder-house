@@ -1,0 +1,85 @@
+mongod --dbpath C:\Users\Roger\Desktop\coderHouse\coderHouse\miBaseMongo
+
+
+use ecommerce//creo la db
+db// veo en que db estoy parado
+-----creo las colecciones necesarias------
+ db.createCollection("mensajes")
+ db.createCollection("productos")
+----realizo carga de 10 documentos en cada una de ellas----
+db.productos.insert([{ id: 1, title: 'nike ball', price: 101, thumbnail: 'http://localhost:8080/public/nike-ball.jpg' },
+{ id: 2, title: 'nike shoes', price: 102, thumbnail: 'http://localhost:8080/public/nike-shoes.jpg' },
+{ id: 3, title: 'adidas shoes', price: 102, thumbnail: 'http://localhost:8080/public/adidas-shoes.jpg' },
+{ id: 4, title: 'puma ball', price: 101, thumbnail: 'http://localhost:8080/public/nike-ball.jpg' },
+{ id: 5, title: 'asics shoes', price: 102, thumbnail: 'http://localhost:8080/public/nike-shoes.jpg' },
+{ id: 6, title: 'fila shoes', price: 102, thumbnail: 'http://localhost:8080/public/adidas-shoes.jpg' },
+{ id: 7, title: 'nike ball', price: 101, thumbnail: 'http://localhost:8080/public/nike-ball.jpg' },
+{ id: 8, title: 'topper shoes', price: 102, thumbnail: 'http://localhost:8080/public/nike-shoes.jpg' },
+{ id: 9, title: 'leviss shoes', price: 102, thumbnail: 'http://localhost:8080/public/adidas-shoes.jpg' },
+{ id: 10, title: 'under shoes', price: 102, thumbnail: 'http://localhost:8080/public/adidas-shoes.jpg' }])
+
+db.mensajes.insert([{  email:'nike@shoes', message: 'hola', date:10/10/10 },
+{  email:'nike@shoes', message: 'hola', date:10/10/10 },
+{  email:'adidas@shoes', message: 'hola', date:10/10/1010/10/10 },
+{  email:'puma@ball', message: 'hola', date:10/10/10 },
+{email: 'asics@shoes', message: 'hola', date:10/10/10},
+{ email: 'fila@shoes', message: 'hola', date:10/10/10},
+{ email:'nike@ball', message: 'hola', date:10/10/10},
+{  email:'topper@shoes', message: 'hola', date:10/10/10 },
+{  email:'leviss@shoes', message: 'hola', date:10/10/10},
+{  email:'under@shoes', message: 'hola', date:10/10/10 }])
+
+---reviso que se hayan insertado bien---
+
+db.productos.find().pretty()
+db.mensajes.find().pretty()
+ ///todo OK de momento
+
+---cuento documentos--
+db.productos.estimatedDocumentCount()
+db.mensajes.estimatedDocumentCount()
+
+//todo OK
+--agrego un elemento mnas en la colleccion productos
+db.productos.insertOne({ id: 11, title: 'nike ball', price: 1000, thumbnail: 'http://localhost:8080/public/nike-ball.jpg' })
+//los muestro
+db.productos.find().pretty()
+//todo OK
+---busco con valores inferior a 1000---
+db.productos.find({"price":{$lt:1000}})
+//sale OK
+
+---busco productos que precio este entre 1000 y 3000---
+db.productos.find({"price":{$in:[1000,3000]}})
+//sale OK
+---busco con valores superior a 3000---
+db.productos.find({"price":{$gt:3000}})
+//sale OK
+--agrega campo de stock y a todos les cargo 100---
+db.productos.updateMany({},{ $set: {"stock": 100} },true)
+//sale OK
+---dejo en 0 el stock a os productos con precio mayor a 4000
+db.productos.updateMany({{"price":{$lt:4000}},{ $set: {"stock": 0} },true)
+//anda OK
+----borrar productos con precio menor a 1000----
+db.productos.deleteMany({{"price":{$lt:1000}})
+//anda OK
+
+
+---creacion de usuario pepe, clave asd456 que solo pueda leer el contenido de la db
+use admin
+db.createUser(
+  {
+    user: "pepe",
+    pwd: "asd456",
+    roles: [
+       { role: "read", db: {"productos","mensajes" }
+    ]
+  }
+)
+
+//anda OK
+
+----Trabajo terminado----
+
+
