@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mensajes",
+    "mensajes": [
+      {
+        "email": "rogercruzt94@gmail.com",
+        "author": {
+        "id": "rogercruzt94@gmail.com",
+        "nombre": "Roger",
+        "apellido": "Cruz",
+        "edad": "0",
+        "alias": "Roger",
+        "avatar": "https://i.pinimg.com/280x280_RS/9b/20/ea/9b20ea6de7ec343daac5714717dc8cd2.jpg"
+        },
+        "text": "Bienvenidos",
+        "date": "01/01/2022 00:00:00"
+      }
+    ]
+  }
+]
