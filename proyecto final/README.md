@@ -10,7 +10,7 @@ En `/api/usuario`
 
 - ✅ Si el usuario se encuentra loggeado:
 
-<img src="/Users/roger/Desktop/Programacion/Backend/Desafios back end coder house/proyecto final/imagesReadme/homeLogged.png" alt="Home with logged user"/>
+<img src="../proyecto final/imagesReadme/homeLogged.png" alt="Home with logged user"/>
 
 - ❌ Si el usuario **no** se encuentra loggeado:
 
